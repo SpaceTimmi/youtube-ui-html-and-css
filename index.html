@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/app_icon_music_32.png">
+    <title>YouTube Music</title>
+</head>
+<body>
+    <div id="side-container">
+        <div class="header" id="side-header">
+            <div id="menu-btn">
+                <img alt="menu" src="./images/icons/menu/icons8-menu-20.png">
+            </div>
+            <div>
+                <img alt="logo" src="https://music.youtube.com/img/on_platform_logo_dark.svg">
+            </div>
+            <div id="empyt-div-side"></div>
+        </div>
+        <div id="guide-section">
+            <div class="guide" id="guide-home">
+                <img alt="home" src="./images/icons/home/icons8-home-24.png">
+                <h3>Home</h3>
+                <span></span>
+            </div>
+            <div class="guide" id="guide-explore">
+                <img alt="explore" src="./images/icons/compass/icons8-compass-24.png">
+                <h3>Explore</h3>
+                <span></span>
+            </div>
+            <div class="guide" id="guide-library">
+                <img alt="library" src="./images/icons/music-library/icons8-music-library-24.png">
+                <h3>Library</h3>
+                <span></span>
+            </div>
+            <div class="guide" id="guide-upgrade">
+                <img alt="upgrade" src="./images/icons/app_icon_music_mono_white_24.svg" height="24px" width="24px">
+                <h3>Upgrade</h3>
+                <span></span>
+            </div>
+        </div>
+        <div id="playlists-section">
+            <div id="new-playlist-btn-div">
+                <img alt="add new playlist" src="./images/icons/plus/icons8-plus-24.png" >
+                <div id="new-playlist-btn">New playlist</div>
+            </div>
+            <div id="playlists">
+                <ul class="playlist-list">
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Liked Music</h4>
+                        <p class="created-by">Auto playlist</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">DJ Sessions</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Saved Downloads</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">9ja Sounds</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Tiny Desk</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Favorite UK Sounds</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Lofi</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Radio 1 - 2023</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Radio 2 - 2023</h4>
+                        <p class="created-by">Timi Ombe</p>
+                    </li>
+                    <li class="playlist-body">
+                        <h4 class="playlist-name">Episodes for Later</h4>
+                        <p class="created-by">Auto playlist</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div class="header" id="main-header">
+            <!-- Main Section - Header Left -->
+            <div id="main-header-left">
+                <div id="search-bar">
+                    <div class="btn" id="search-icon">
+                        <img alt="search" src="./images/icons/search/icons8-search-20.png" width="20" height="20">
+                    </div>
+                    <input id="search-box" placeholder="Search songs, albums, artists, podcasts">
+                    <span id="search-empty"></span>
+                </div>
+            </div>
+            <!-- Main Section - Header Right -->
+            <div id="main-header-right">
+                <div class="btn" id="chromecast-btn">
+                    <img alt="cast" src="./images/icons/chromecast-button/icons8-chromecast-cast-button-32.png">
+                </div>
+                <div class="btn" id="profile-btn">
+                    <img id="profile-picture"alt="profile picture" src="./images/profile-photo.JPG" width="24px" height="24px">
+                </div>
+                <span></span>
+            </div>
+        </div>
+        <div id="tags">
+            <ul id="tags-list">
+                <li class="tag-box btn">
+                    <p class="tag-text">Energize</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Feel good</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Relax</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Commute</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Workout</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Party</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Focus</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Sad</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Romance</p>
+                </li>
+                <li class="tag-box btn">
+                    <p class="tag-text">Sleep</p>
+                </li>
+            </ul>
+        </div>
+        <!-- Listen Again Section  -->
+        <div id="listen-again">
+            <!-- Listen Again - TOP -->
+            <div id="listen-again-top">
+                <div id="listen-again-top-left">
+                    <div class="btn" id="profile-picture-lg-cont">
+                        <img id="profile-picture-lg" alt="profile picture" src="./images/profile-photo.JPG" height="48px" width="48px">
+                    </div>
+                    <div id="info-group">
+                        <div id="info-group-left">
+                            <h4 id="username">TIMI OMBE</h4>
+                            <h2 id="listen-again-txt">Listen again</h2>
+                        </div>
+                        <div id="info-group-right">
+                            <div class="btn" id="more-btn">More</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="listen-again-top-right">
+                    <div class="btn" id="carousel-left">
+                        <img alt="less-than" src="./images/icons/less-than/icons8-less-than-24.png">
+                    </div>
+                    <div class="btn" id="carousel-right">
+                        <img alt="more-than" src="./images/icons/more-than/icons8-more-than-24.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Listen Again - BOTTOM -->
+            <div id="listen-again-bottom">
+                <ul id="listen-again-list">
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/trending-nigeria.JPG"> 
+                        <div class="text-container">
+                            <p class="top-text">Trending 20<br>Nigeria</p>
+                            <h3 class="bottom-text">Chart • YouTube<br>Music</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="artist song-cover" src="./images/album-covers/loyle-carner2.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Loyle Carner</p>
+                            <h3 class="bottom-text">154K subscribers</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/nobody-cares.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Nobody Cares Till<br>Everybody Does</p>
+                            <h3 class="bottom-text">Album • Kofi<br>Stone</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/timeless.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Timeless</p>
+                            <h3 class="bottom-text">Album • Davido</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="artist song-cover" src="./images/album-covers/tyler.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Tyler, The Creator</p>
+                            <h3 class="bottom-text">4.99M subscribers</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/sounds-of-my-world.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Sounds of My World</p>
+                            <h3 class="bottom-text">Album • Juls</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="quick-picks-container">
+            <div id="quick-picks-top">
+                <h2 class="section-head" id="forgotten-favorites-txt">Forgotten favorites</h2>
+                <div id="carousel-container">
+                    <div class="btn" id="carousel-left">
+                        <img alt="less-than" src="./images/icons/less-than/icons8-less-than-24.png">
+                    </div>
+                    <div class="btn" id="carousel-right">
+                        <img alt="more-than" src="./images/icons/more-than/icons8-more-than-24.png">
+                </div>
+            </div>
+            </div>
+            <div id="quick-picks-bottom">
+                <ul id="listen-again-list">
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/more-love.jpg">
+                        <div class="text-container">
+                            <p class="top-text">More Love, <br> Less Ego</p>
+                            <h3 class="bottom-text">Album • Wizkid</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/collection-one.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Collection One</p>
+                            <h3 class="bottom-text">Album • SAINt<br>JHN</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/roots.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Roots</p>
+                            <h3 class="bottom-text">Album • NSG</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/nothing-was.jpg"> 
+                        <div class="text-container">
+                            <p class="top-text">Nothing Was The<br>Same (Delux)</p>
+                            <h3 class="bottom-text">Album • Drake</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/angel.jpg">
+                        <div class="text-container">
+                            <p class="top-text">THE ANGEL YOU <br>DON'T KNOW</p>
+                            <h3 class="bottom-text">Album • Amaarae</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/the-trill.jpg">
+                        <div class="text-container">
+                            <p class="top-text">The Thrill</p>
+                            <h3 class="bottom-text">Album • BenjiFlow</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="quick-picks-container">
+            <div id="quick-picks-top">
+                <h2 class="section-head" id="forgotten-favorites-txt">Recommended playlist</h2>
+                <div id="carousel-container">
+                    <div class="btn" id="carousel-left">
+                        <img alt="less-than" src="./images/icons/less-than/icons8-less-than-24.png">
+                    </div>
+                    <div class="btn" id="carousel-right">
+                        <img alt="more-than" src="./images/icons/more-than/icons8-more-than-24.png">
+                </div>
+            </div>
+            </div>
+            <div id="quick-picks-bottom">
+                <ul id="listen-again-list">
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/afrobeatnow.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Afrobeats Now</p>
+                            <h3 class="bottom-text">Burna Boy, Asake,<br>Rema, Shallipopi</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/left-field.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Left-Field Hip Hop</p>
+                            <h3 class="bottom-text">Tyler, The Creator,<br>JPEGMAFIA, De..</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/the-hit-list.jpg">
+                        <div class="text-container">
+                            <p class="top-text">The Hit List</p>
+                            <h3 class="bottom-text">ODUMODUBLVCK,<br>Burna Boy,...</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/uk-rap.jpg"> 
+                        <div class="text-container">
+                            <p class="top-text">UK Rap & Grime<br>Bangers</p>
+                            <h3 class="bottom-text">Skepta, Stormzy,<br>Kano, Digga D</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/presenting-lil-yachty.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Presenting Lil<br>Yachty</p>
+                            <h3 class="bottom-text">Lil Yachty, DaBaby,<br>yvngchris,...</h3>
+                        </div>
+                    </li>
+                    <li class="song-container">
+                        <img class="album song-cover" src="./images/album-covers/checklist.jpg">
+                        <div class="text-container">
+                            <p class="top-text">Checklist</p>
+                            <h3 class="bottom-text">BNXN, Kizz Daniel,<br>ODUMODUBLVCK...</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+        <div></div>
+
+    </div>
+</body>
+</html>
